@@ -1,0 +1,21 @@
+Featherweight Firefox:
+Contains browser.ml, domain.ml, io.ml, reactive.ml
+--------------------------------------------------
+Copyright 2010, Aaron Bohannon
+bohannon@cis.upenn.edu
+
+Version 1.3 with changes to version 1.0
+
+Run 'make all' to compile the files with an OCaml compiler.
+
+======================================================================================
+Declassification wrapper :
+Contains domain.ml, label.ml, release.ml, wrapper.ml, policyfun.ml, policy.ml, test.ml
+--------------------------------------------------------------------------------------
+
+This folder contains the implementation of the declassification semantics described in 
+ the CSF'18 work of McCall et al. 
+The policy and the labels are mentioned in the file named to "policy.ml".
+
+
+
